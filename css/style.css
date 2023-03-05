@@ -145,7 +145,7 @@ header{
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	padding-top: 100px;
+	padding-top: 120px;
 	width: 80%;
 	max-width: 800px;
 }
@@ -223,7 +223,10 @@ header{
 	width: 100%;
 	padding: 60px 0;
 	background-color: #4A2179;
-}				
+}
+.s4 .container-s4{
+	display: flex;
+}	
 .s4 .form{
 	width: 50%;
 	padding: 20px 0;
@@ -374,6 +377,37 @@ header{
 		padding-top: 40px;
 	}
 	.img{
-
 		display: none;
 	}
+	.s3{
+		display: flex;
+		align-items: center;
+	}
+	.img3{
+		display: none;
+	}
+	.lados{
+		height: auto;
+		transform: translate(0);
+	}
+	.l2 .author .p1 .img4{
+		float: none;
+		transform: translate(0);
+		position: absolute;
+		top: -30%;
+		width: 64px;
+		height: 64px;
+	}
+	.s4 .container-s4{
+		flex-direction: column;
+		align-items: center;
+	}
+	.s4 .form{
+		width: 100%;
+		max-width: 600px;
+	}
+	.s4 .mapa{
+		width: 100%;
+		max-width: 600px;
+	}
+}
